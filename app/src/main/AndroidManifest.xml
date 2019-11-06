@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kuansing.rndmjck.pelelangan">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.ActivityNavigation"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.DataBarangActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.DetailDataBarangActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.administrator.KelolaBarangActivity"
+            android:label="@string/title_activity_kelola_barang"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.administrator.TambahBarangActivity"
+            android:label="@string/title_activity_tambah_barang"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.DataBarangSoldOutActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.administrator.TambahJadwalLelangActivity"
+            android:label="@string/title_activity_tambah_jadwal_lelang"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.administrator.EditUsersActivity"
+            android:label="@string/title_activity_edit_users"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Pengguna" />
+        <item
+            android:id="@+id/nav_lelang"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Lelang" />
+        <item
+            android:id="@+id/nav_jadwal_lelang"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Jadwal Lelang" />
+        <item
+            android:id="@+id/nav_tata_cara_lelang"
+            android:icon="@drawable/ic_directions_walk_black_24dp"
+            android:title="Tata Cara Lelang" />
+        <item
+            android:id="@+id/nav_tentang_kami"
+            android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+            android:title="Tentang Kami" />
+        <item
+            android:id="@+id/nav_hubungi_kami"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Hubungi Kami" />
+    </group>
+
+</menu>

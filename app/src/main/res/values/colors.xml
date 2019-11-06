@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#48874e</color>
+    <color name="colorPrimaryLight">#8ad992</color>
+    <color name="colorPrimaryDark">#2c502f</color>
+    <color name="colorSuccess">#7c58ff</color>
+    <color name="colorDanger">#d2423f</color>
+    <color name="colorInfo">#35b8e0</color>
+    <color name="colorDefault">#a4a4a4</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorMyListPenawaran">#a7d97f</color>
+</resources>

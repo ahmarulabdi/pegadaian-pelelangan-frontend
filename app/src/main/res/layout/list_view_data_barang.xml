@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view_data_barang_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/gambar_barang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorDefault"/>
+
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/gambar_barang"
+        android:id="@+id/container_text_list_view_data_barang"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/nama_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/kode_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kode Barang"/>
+
+        <TextView
+            android:id="@+id/harga_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Barang"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/keterangan_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keterangan Gambar"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/jenis_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Barang"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/container_text_list_view_data_barang"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/list_view_data_barang_aksi"
+            android:text="Aksi" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/list_view_data_barang_hapus"
+            android:background="@drawable/ic_delete_black_24dp"
+             />
+    </LinearLayout>
+
+</RelativeLayout>

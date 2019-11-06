@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view_data_penawaran_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/gambar_barang"
+        android:id="@+id/container_text_list_view_data_penawaran"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nama_penawar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Penawar"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/status"
+                android:clickable="true"
+                android:textColor="@color/colorInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/harga"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorInfo"
+            android:text="Harga"
+            android:textSize="12dp" />
+        <Button
+            android:id="@+id/set_pemenang"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryLight"
+            android:text="Pemenang"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</RelativeLayout>

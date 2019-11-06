@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="70dp">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipe_refresh_menu_data_barang">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_kelola_barang"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape_primary_light"
+                android:text="@string/kelola_barang" />
+
+            <Button
+                android:id="@+id/btn_data_barang_sold_out"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape_success"
+                android:text="@string/barang_sold_out" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_lelang_emas"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/button_shape_success"
+                    android:text="Lelang Emas" />
+
+                <Button
+                    android:id="@+id/btn_lelang_kendaraan"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_toRightOf="@+id/btn_lelang_emas"
+                    android:background="@drawable/button_shape_info"
+                    android:text="Lelang Kendaraan" />
+
+                <Button
+                    android:id="@+id/btn_lelang_elektronik"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@+id/btn_lelang_emas"
+                    android:background="@drawable/button_shape_primary"
+                    android:text="Lelang Elektronik" />
+
+                <Button
+                    android:id="@+id/btn_lelang_semua"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_below="@+id/btn_lelang_kendaraan"
+                    android:layout_toRightOf="@+id/btn_lelang_elektronik"
+                    android:background="@drawable/button_shape_default"
+                    android:text="Lelang Semua" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</android.support.constraint.ConstraintLayout>
